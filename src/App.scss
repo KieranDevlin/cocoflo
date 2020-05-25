@@ -1,0 +1,129 @@
+@import './theme/mixins.scss';
+@import './theme/variables.scss';
+
+//////////// LAYOUT ////////////
+
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  min-height: 100vh;
+  overflow: hidden;
+  @include media($tablet) {
+    height: 100vh;
+  }
+}
+
+header {
+  height: 80px;
+  @include media($tablet) {
+    height: 10vh;
+  }
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: $site-small-margin;
+  background-color: $cocoflo-light-blue;
+
+  @include media($tablet) {
+    display: grid;
+    grid-gap: 10px;
+    height: 80vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    h1 {
+      grid-column: 1/13;
+      grid-row: 1;
+    }
+    p {
+      grid-row: 2;
+      grid-column: 1/6;
+    }
+    .api-key-form {
+      height: 100%;
+      grid-row: 3/6;
+      grid-column: 1/6;
+    }
+    .unsplash-card {
+      grid-row: 2/6;
+      grid-column: 7/13;
+    }
+  }
+  @include media($desktop) {
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+    h1 {
+      grid-column: 3/15;
+    }
+    p {
+      grid-row: 2/4;
+      grid-column: 3/8;
+    }
+    .api-key-form {
+      grid-row: 4/7;
+      grid-column: 3/8;
+    }
+    .unsplash-card {
+      grid-row: 2/7;
+      grid-column: 10/15;
+    }
+  }
+}
+
+footer {
+  height: 80px;
+  @include media($tablet) {
+    height: 10vh;
+  }
+}
+
+//////////// TAGS ////////////
+h1 {
+  font-size: 1.8rem;
+  margin: $site-small-margin 0;
+  font-family: sans-serif;
+  @include media($tablet) {
+    margin: $site-small-margin 0;
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-size: 1.15rem;
+  @include media($tablet) {
+    font-size: 1.4rem;
+  }
+}
+a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+  &:hover {
+    border-bottom: 1px solid #fff;
+  }
+  &:visited {
+    color: #000;
+  }
+}
+
+article {
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+  text-align: center;
+}
+
+//////////// CLASSES ////////////
+
+.footerNav {
+  justify-content: center;
+}

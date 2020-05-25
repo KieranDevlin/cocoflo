@@ -1,0 +1,6 @@
+// dynamic funtion for media queries
+@mixin media($width) {
+  @media only screen and (min-width: $width) {
+    @content;
+  }
+}
