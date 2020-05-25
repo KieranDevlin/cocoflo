@@ -72,7 +72,10 @@ const UnsplashCard = ({ unsplashData, isLoading }) => {
       ) : (
         <div className="unsplash-card unsplash-card-no-data">
           {isLoading ? (
-            <img src={require('../../assets/loading.gif')} />
+            <img
+              src={require('../../assets/loading.gif')}
+              alt="Waiting for API response"
+            />
           ) : (
             <span>No data</span>
           )}

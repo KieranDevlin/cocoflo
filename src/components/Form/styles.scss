@@ -16,6 +16,9 @@
     margin: $site-small-margin 0;
   }
   select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     margin: $site-small-margin 0;
     width: 100%;
     padding: 10px;

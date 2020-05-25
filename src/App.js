@@ -53,6 +53,7 @@ function App() {
         if (data?.errors?.length > 0) {
           setIsLoading(false);
           setunsplashData(null);
+          alert('Make sure you have a working API key!');
         }
       })
       .catch((err) => alert('There was an error with Unsplash!'));
