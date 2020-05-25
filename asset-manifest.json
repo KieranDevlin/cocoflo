@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/cocoflo/static/css/main.bd263959.chunk.css",
-    "main.js": "/cocoflo/static/js/main.39c52786.chunk.js",
-    "main.js.map": "/cocoflo/static/js/main.39c52786.chunk.js.map",
+    "main.css": "/cocoflo/static/css/main.aa115c1c.chunk.css",
+    "main.js": "/cocoflo/static/js/main.301e1c88.chunk.js",
+    "main.js.map": "/cocoflo/static/js/main.301e1c88.chunk.js.map",
     "runtime-main.js": "/cocoflo/static/js/runtime-main.99d09943.js",
     "runtime-main.js.map": "/cocoflo/static/js/runtime-main.99d09943.js.map",
     "static/js/2.32936082.chunk.js": "/cocoflo/static/js/2.32936082.chunk.js",
     "static/js/2.32936082.chunk.js.map": "/cocoflo/static/js/2.32936082.chunk.js.map",
     "index.html": "/cocoflo/index.html",
-    "precache-manifest.60872603dde64f7e34f3fc78b32d8afb.js": "/cocoflo/precache-manifest.60872603dde64f7e34f3fc78b32d8afb.js",
+    "precache-manifest.353aea73d3dbfead7174c9e4f36692a5.js": "/cocoflo/precache-manifest.353aea73d3dbfead7174c9e4f36692a5.js",
     "service-worker.js": "/cocoflo/service-worker.js",
-    "static/css/main.bd263959.chunk.css.map": "/cocoflo/static/css/main.bd263959.chunk.css.map",
+    "static/css/main.aa115c1c.chunk.css.map": "/cocoflo/static/css/main.aa115c1c.chunk.css.map",
     "static/js/2.32936082.chunk.js.LICENSE.txt": "/cocoflo/static/js/2.32936082.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.99d09943.js",
     "static/js/2.32936082.chunk.js",
-    "static/css/main.bd263959.chunk.css",
-    "static/js/main.39c52786.chunk.js"
+    "static/css/main.aa115c1c.chunk.css",
+    "static/js/main.301e1c88.chunk.js"
   ]
 }

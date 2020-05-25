@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00b9e42af0bee9d2e441c650290bda2f",
+    "revision": "77b60f765a8f37c71303163c60db4a7f",
     "url": "/cocoflo/index.html"
   },
   {
-    "revision": "615fac01ca58bf0f83ee",
-    "url": "/cocoflo/static/css/main.bd263959.chunk.css"
+    "revision": "d5a9057b069ba0e241b2",
+    "url": "/cocoflo/static/css/main.aa115c1c.chunk.css"
   },
   {
     "revision": "03fbdd67c779c92bd707",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cocoflo/static/js/2.32936082.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "615fac01ca58bf0f83ee",
-    "url": "/cocoflo/static/js/main.39c52786.chunk.js"
+    "revision": "d5a9057b069ba0e241b2",
+    "url": "/cocoflo/static/js/main.301e1c88.chunk.js"
   },
   {
     "revision": "dd0d9fa17396fe7a38fa",
